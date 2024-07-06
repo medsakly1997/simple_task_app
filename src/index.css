@@ -21,7 +21,6 @@ h1 {
 
 .section .container {
   width: 100%;
-  min-width: inherit;
   display: flex;
   justify-content: center;
 }
@@ -58,4 +57,18 @@ h1 {
   padding: 0.6rem 0.8rem;
   border: 1px solid rgb(0, 0, 0, 0.1);
   margin-bottom: 2rem;
+}
+
+.section .container .column .task-item p {
+  margin: 0;
+  padding: 0;
+}
+
+.section .container .column .task-item .handle {
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  background-color: aqua;
+  border-radius: 4px;
+  margin-right: 0.4rem;
 }

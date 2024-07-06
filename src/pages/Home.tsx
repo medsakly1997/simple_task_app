@@ -9,17 +9,17 @@ const Home = () => {
           <div className="task-list">
             <div className="task-item">
               <span className="handle"></span>
-              <h1>Clean out my garbage</h1>
+              <p>Clean out my garbage</p>
             </div>
 
             <div className="task-item">
               <span className="handle"></span>
-              <h1>Study for exams</h1>
+              <p>Study for exams</p>
             </div>
 
             <div className="task-item">
               <span className="handle"></span>
-              <h1>Wash my car</h1>
+              <p>Wash my car</p>
             </div>
           </div>
         </div>
